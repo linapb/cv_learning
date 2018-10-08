@@ -44,7 +44,7 @@ model.add(Dropout(0.5))
 model.add(Dense(num_classes, activation='softmax'))
 '''
 
-# simples model
+# simple model
 model = Sequential()
 model.add(Flatten())
 model.add(Dense(num_classes, activation='softmax'))
